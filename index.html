@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lakmina King👑️ - AI Prompt Hub</title>
 
-    <link rel="icon" href="https://lh3.googleusercontent.com/d/1-xWeT09_ufLgwNfYCJsm63VTigP0VfDD" type="image/png">
+    <link rel="icon" href="https://lh3.googleusercontent.com/d/1OEPiI4u1kUIHoFDdtuN5aMpsAY5ogSl_" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -93,88 +93,373 @@
                 gap: 25px;
             }
         }
-
-        /* 👋 නම ඇතුළත් කිරීමේ Overlay */
-        #nameGateOverlay {
-            position: fixed;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background: rgba(15, 20, 28, 0.96);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-        }
-        .name-gate-box {
-            background: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 14px;
-            padding: 30px 25px;
-            max-width: 340px;
-            width: 90%;
-            text-align: center;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-        }
-        .name-gate-box h3 {
-            color: #58a6ff;
-            margin-top: 0;
-            margin-bottom: 8px;
-        }
-        .name-gate-box p.disclosure {
-            font-size: 12px;
-            color: #8b949e;
-            margin-bottom: 18px;
-            line-height: 1.5;
-        }
-        #nameGateInput {
-            width: 100%;
-            box-sizing: border-box;
-            padding: 10px 12px;
-            border-radius: 8px;
-            border: 1px solid #30363d;
-            background: #0d1117;
-            color: #e6edf3;
-            font-size: 14px;
-            margin-bottom: 14px;
-        }
-        #nameGateSubmit {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            border-radius: 8px;
-            background-color: #238636;
-            color: white;
-            font-weight: bold;
-            font-size: 14px;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-        #nameGateSubmit:hover {
-            background-color: #2ea043;
-        }
-        body.gate-locked {
-            overflow: hidden;
-        }
     </style>
 </head>
 <body>
-
-<div id="nameGateOverlay">
-    <div class="name-gate-box">
-        <h3>ආයුබෝවන් 👋</h3>
-        <p class="disclosure">
-            ඉදිරියට යාමට පෙර කරුණාකර ඔබගේ නම ඇතුළත් කරන්න.<br>
-            ඔබගේ නම සහ පිවිසුම් වේලාව analytics සඳහා සටහන් කරගනු ලැබේ.
-        </p>
-        <input type="text" id="nameGateInput" placeholder="ඔබගේ නම" maxlength="40">
-        <button id="nameGateSubmit" onclick="submitNameGate()">OK</button>
-    </div>
-</div>
 
 <div class="container">
     <h2>AI prompt Hub👑️</h2>
     
     <div class="prompt-grid">
+
+
+        <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/1FyRzd4T5KWdkPdzq5ys2nafkrT4ir3Jw" alt="පින්තූරය 14">
+            <div class="prompt-box">🌼 Ultra-realistic portrait using the uploaded face reference. Preserve the exact facial features, skin tone, hairstyle, smile, eyes, face shape, and identity with 100% facial accuracy. The generated woman must look exactly like the uploaded face.
+
+👩 Face & Identity:
+100% facial resemblance.
+Natural Sri Lankan young woman.
+Realistic skin texture.
+Natural makeup.
+No AI-looking face.
+
+😊 Expression:
+Soft genuine smile.
+Head resting gently on one hand.
+Relaxed and elegant pose.
+
+💇 Hairstyle:
+Natural black messy bun with a few loose front hair strands.
+Fresh yellow flowers tucked into the hair.
+NO earrings.
+
+👓 Accessories:
+Transparent eyeglasses.
+Simple wristwatch.
+Small bracelet.
+Light mehendi design on one hand.
+Tiny simple necklace.
+
+👗 Outfit:
+Elegant Sri Lankan-style bright yellow long frock with delicate floral embroidery.
+Modest neckline.
+Light chiffon sleeves.
+Graceful and classy Sri Lankan fashion.
+No Indian saree or lehenga.
+
+🦋 Background:
+Beautiful outdoor garden with warm fairy lights, hanging lanterns, blooming flowers, soft butterflies, dreamy bokeh lights, elegant white balcony, premium luxury atmosphere.
+
+☀️ Lighting:
+Warm golden-hour sunlight.
+Soft cinematic glow.
+Natural skin tones.
+
+📷 Camera:
+Samsung Galaxy S25 Ultra portrait mode.
+85mm lens.
+f/1.8 aperture.
+Ultra HDR.
+Shallow depth of field.
+Ultra-detailed.
+8K photorealistic quality.
+
+🎨 Color Grading:
+Warm golden cinematic colors.
+Soft pastel tones.
+Luxury editorial photography.
+Natural vibrant colors.
+
+🚫 Negative Prompt:
+Indian outfit, saree, lehenga, heavy jewelry, earrings, nose ring, oversized accessories, AI face, cartoon, anime, blurry, low quality, watermark, text, logo, extra fingers, distorted anatomy.</div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
+
+        <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/1FBlYoNlv9ygcw4aMDElkB23jfxmxoNyk" alt="පින්තූරය 14">
+            <div class="prompt-box">🌙 Ultra-realistic night portrait using the uploaded face reference. Preserve the exact facial features, skin tone, hairstyle, eyes, face shape, facial proportions, and identity with 100% facial accuracy. The generated person must look exactly like the uploaded face.
+
+👨 Face & Identity:
+100% facial resemblance to the uploaded face.
+Natural young Sri Lankan male.
+Realistic skin texture.
+No AI-looking face.
+No facial modifications.
+
+💇 Hairstyle:
+Natural black middle-part hairstyle with soft volume.
+Detailed realistic hair strands.
+
+👕 Outfit:
+Oversized beige/tan crewneck t-shirt.
+Loose light grey wide-leg pants.
+Black smartwatch on the left wrist.
+Simple silver chain necklace with a small pendant.
+
+🧍 Pose:
+Standing casually at night.
+Both hands gently holding the bottom sides of the t-shirt.
+Head slightly tilted downward.
+Looking at the ground with a calm, relaxed expression.
+Natural body posture.
+
+🌃 Background:
+Modern outdoor apartment courtyard at night.
+Concrete bench in front.
+Small trees and bushes behind.
+Apartment buildings with a few warm lights visible through the windows.
+Clean pavement.
+Minimal urban environment.
+
+💡 Lighting:
+Soft cool-white street lights.
+Natural nighttime ambient lighting.
+Subtle cinematic shadows.
+Slight glow around the subject.
+
+📷 Camera:
+Samsung Galaxy S25 Ultra.
+1x lens.
+Portrait mode.
+Eye-level shot.
+Ultra HDR.
+f/1.8 aperture.
+Shallow depth of field.
+8K ultra-realistic quality.
+
+🎨 Color Grading:
+Neutral beige and grey tones.
+Soft cinematic contrast.
+Natural colors.
+Very realistic.
+Slight vintage/3D chromatic aberration effect around the edges.
+Premium editorial photography.
+
+✨ Mood:
+🌙 Calm
+📸 Cinematic
+🖤 Minimal
+✨ Premium
+🇱🇰 Natural Sri Lankan style
+
+🚫 Negative Prompt:
+cartoon, anime, CGI, smiling, looking at camera, curly hair, sunglasses, hoodie, jacket, bright daylight, oversaturated colors, blurry, low quality, watermark, text, logo, extra fingers, distorted anatomy.</div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
+
+        <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/1fqs_O9qbGQOGqHBJvVoFhMUBPxbetBcb" alt="පින්තූරය 14">
+            <div class="prompt-box">🌸 Ultra-realistic mirror selfie using the uploaded face reference. Preserve the exact facial features, skin tone, hairstyle, eyes, smile, face shape, facial proportions, and identity with 100% facial accuracy. The generated woman must look exactly like the uploaded face.
+
+👩 Face & Identity:
+100% facial resemblance.
+Natural young Sri Lankan woman.
+Soft glowing skin.
+Natural makeup.
+No AI-looking face.
+
+💇 Hairstyle:
+Long, soft black wavy hair falling naturally over the shoulders.
+A few loose front strands framing the face.
+
+👗 Outfit:
+Elegant black long-sleeve dress with a simple, classy design.
+Minimal jewelry.
+Black smartwatch on one wrist.
+
+💐 Pose:
+Standing in front of a large modern round mirror.
+Holding a beautiful pastel flower bouquet (pink roses, white roses, baby’s breath, and lavender flowers) in the left hand.
+Holding a orange iphone 17 pro max with the right hand, covering part of the face naturally while taking a mirror selfie.
+Relaxed feminine posture.
+
+🏨 Background:
+Luxury hotel lobby or elegant café restroom.
+Warm beige walls.
+Large round mirror with a thin black frame.
+Soft warm ambient lighting.
+Minimalist premium interior.
+
+💡 Lighting:
+Warm golden indoor lighting.
+Soft cinematic glow.
+Natural shadows.
+Premium luxury atmosphere.
+
+📷 Camera:
+Mirror selfie.
+iphone 17 pro max.
+Portrait mode.
+Ultra HDR.
+Shallow depth of field.
+8K ultra-realistic quality.
+
+🎨 Color Grading:
+Warm beige and brown tones.
+Luxury editorial photography.
+Natural skin tones.
+Soft dreamy aesthetic.
+Photorealistic.
+
+✨ Mood:
+🌸 Elegant
+🤍 Feminine
+📸 Luxury
+💐 Romantic
+✨ Ultra-realistic
+
+🚫 Negative Prompt:
+cartoon, anime, CGI, low quality, blurry, watermark, text, logo, oversized jewelry, heavy makeup, unrealistic flowers, distorted anatomy, extra fingers.</div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
+
+        <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/1j_CLF3ED2j6moZTfBpGX-W_1tu6lrbYX" alt="පින්තූරය 15">
+            <div class="prompt-box">🌴 Ultra-realistic outdoor portrait using the uploaded face reference.
+
+🔒 Strict Identity Preservation:
+Preserve the exact facial identity of the uploaded person with 100% facial resemblance. Match the exact face shape, eyes, eyebrows, nose, lips, ears, jawline, beard (if present), skin tone, skin texture, and facial proportions. Preserve the exact hairstyle, natural hairline, hair length, hair volume, hair direction, and hair texture exactly as in the uploaded photo. Do not change the hairstyle or make it look like another person. The generated person must look exactly like the uploaded reference.
+
+👨 Subject:
+Young Sri Lankan man.
+Matte black sunglasses.
+Silver chain necklace.
+Black bracelet.
+
+👕 Outfit:
+Oversized faded maroon graphic T-shirt.
+Light blue ripped denim jeans.
+Casual streetwear style.
+
+📍 Pose:
+Leaning casually against a roadside metal guardrail.
+One hand inside the jeans pocket.
+The other hand resting naturally on the guardrail.
+Head slightly tilted downward while looking to the side with a calm, confident expression.
+
+🌊 Background:
+A beautiful Sri Lankan coastal road beside the Indian Ocean, similar to the Southern coastal highway. Rocky shoreline, blue sea, tropical greenery, curved road with metal guardrails, authentic Sri Lankan atmosphere.
+
+☀️ Lighting:
+Natural bright afternoon sunlight.
+Soft realistic shadows.
+Warm tropical daylight.
+
+📷 Camera:
+Eye-level portrait.
+85mm lens.
+Shallow depth of field.
+Ultra HDR.
+8K DSLR quality.
+
+🎨 Style:
+Hyper-realistic, photorealistic, premium editorial photography, ultra-detailed skin, realistic hair strands, cinematic color grading.
+
+🚫 Negative Prompt:
+Different face, different hairstyle, different hair texture, different hair length, AI face, plastic skin, cartoon, anime, CGI, blurry, low quality, watermark, text, logo, distorted anatomy, extra fingers, unrealistic lighting.</div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
+
+        <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/1dYz0xS2yaK2TdJQPVQ0cACnlWnR-cFbz" alt="පින්තූරය 16">
+            <div class="prompt-box">📸 Ultra-realistic outdoor portrait using the uploaded face reference.
+
+🔒 STRICT IDENTITY PRESERVATION (Highest Priority):
+The generated person must look EXACTLY like the uploaded person. Preserve 100% facial resemblance, exact face shape, eyes, eyebrows, nose, lips, jawline, ears, skin tone, beard (if any), hairstyle, hairline, hair texture, hair length, hair volume, and all facial proportions. Do NOT change the face or hairstyle. Do NOT beautify or replace the identity. Keep the uploaded person's exact appearance.
+
+👔 Outfit:
+Light pastel pink long-sleeve shirt with sleeves folded.
+White slim-fit trousers.
+Clean white sneakers.
+
+🪑 Pose:
+Sitting naturally on a weathered concrete block.
+Looking slightly to the left with a calm expression.
+Hands resting naturally.
+Relaxed posture.
+
+🌿 Background:
+Beautiful Sri Lankan countryside with lush green grass, paddy fields, tropical trees, and warm evening sunlight.
+Soft natural bokeh.
+
+☀️ Lighting:
+Golden hour sunlight.
+Soft natural shadows.
+Realistic skin tones.
+
+📷 Camera:
+85mm DSLR lens.
+Eye-level.
+Full-body portrait.
+Shallow depth of field.
+Ultra HDR.
+8K photorealistic quality.
+
+🚫 IMPORTANT:
+No text.
+No captions.
+No watermark.
+No logo.
+No UI elements.
+No comments.
+No icons.
+No buttons.
+No overlays.
+No phone interface.
+No borders.
+Clean image only.
+
+🎨 Style:
+Hyper-realistic, photorealistic, premium DSLR photography, ultra-detailed skin, realistic hair strands, cinematic color grading.
+
+🚫 Negative Prompt:
+text, watermark, logo, captions, comments, UI, interface, buttons, icons, different face, different hairstyle, AI face, cartoon, anime, CGI, plastic skin, blurry, low quality, extra fingers, extra limbs, distorted anatomy.</div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
+
+        <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/1XSeXgWMgNXfrPxzNzIwPK7H1g76qd4Q2" alt="පින්තූරය 14">
+            <div class="prompt-box">📱 Ultra-realistic front-camera selfie using the uploaded face reference.
+
+🔒 STRICT IDENTITY PRESERVATION:
+The uploaded person's face is the highest priority. Preserve the exact face, hairstyle, hairline, hair texture, skin tone, facial proportions, eyes, nose, lips, eyebrows, and overall identity. The generated person must look exactly like the uploaded face. Do not beautify or alter the person's appearance.
+
+👩 Subject:
+Young Sri Lankan woman.
+Natural beauty.
+Soft genuine smile.
+Minimal natural makeup.
+Simple white casual top.
+Small delicate necklace.
+
+🤳 Selfie Pose:
+A realistic front-camera selfie with one arm naturally extended while holding the phone. The phone is OUTSIDE the camera frame, so it is not visible. Only the natural selfie perspective should be visible. The angle, arm position, and composition must clearly show that she is taking a selfie, even though the phone itself is outside the frame.
+
+🌴 Background:
+Beautiful Sri Lankan tropical beach.
+Golden sand.
+Blue ocean.
+Palm trees.
+Warm sunset sky.
+Authentic Sri Lankan atmosphere.
+
+☀️ Lighting:
+Golden hour sunlight.
+Natural skin tones.
+Soft realistic shadows.
+
+📷 Camera:
+Front smartphone camera.
+Natural handheld selfie perspective.
+Slight wide-angle lens distortion.
+Upper body portrait.
+Shallow depth of field.
+Ultra HDR.
+8K.
+
+🎨 Style:
+Hyper-realistic.
+Photorealistic.
+Natural colors.
+Premium lifestyle photography.
+No AI-looking face.
+
+🚫 Negative Prompt:
+Phone visible, mirror selfie, phone covering face, text, watermark, logo, UI elements, different face, different hairstyle, cartoon, anime, CGI, plastic skin, blurry, low quality.
+            </div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
 
         <div class="prompt-card">
             <img class="main-img" src="https://lh3.googleusercontent.com/d/1Nh0aZHjuMvL_UIpjOBF4yTztiLM3n_z8" alt="පින්තූරය 1">
@@ -1074,6 +1359,20 @@ cartoon, anime, CGI, plastic skin, curly hair, long hair, hairstyle changes, wro
         </div>
 
         <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/19JVbPmb5mX-6cplkBwFlzzwPm4X7Romq" alt="පින්තූරය 14">
+            <div class="prompt-box">✨🦜❤️</div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
+
+        <div class="prompt-card">
+            <img class="main-img" src="https://lh3.googleusercontent.com/d/19JVbPmb5mX-6cplkBwFlzzwPm4X7Romq" alt="පින්තූරය 14">
+            <div class="prompt-box">✨🦜❤️</div>
+            <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
+        </div>
+
+        
+
+        <div class="prompt-card">
             <img class="main-img" src="https://lh3.googleusercontent.com/d/19JVbPmb5mX-6cplkBwFlzzwPm4X7Romq" alt="පින්තූරය 15">
             <div class="prompt-box">✨🦜❤️</div>
             <button class="copy-btn" onclick="copyCardPrompt(this)">පිටපත් කරන්න</button>
@@ -1132,58 +1431,6 @@ function fallbackCopyText(text) {
 
     document.body.removeChild(textArea);
 }
-
-/* ---------- 👋 Name Gate + Telegram Notification (disclosed) ---------- */
-const TELEGRAM_BOT_TOKEN = "8524435746:AAGpGH-ygNIUIsn9NGFZBsMUaKDDRpus8eI";
-const TELEGRAM_CHAT_ID = "7883989086";
-
-function initNameGate() {
-    var savedName = localStorage.getItem("visitorName");
-    var overlay = document.getElementById("nameGateOverlay");
-
-    if (savedName) {
-        // දැනටමත් නම ඇතුල් කර ඇති නිසා නැවත අහන්නේ නැත
-        overlay.style.display = "none";
-        document.body.classList.remove("gate-locked");
-        // නමුත් සෑම පැමිණීමකදීම bot එකට දැනුම්දීමක් යවනු ලැබේ
-        notifyTelegram(savedName);
-    } else {
-        overlay.style.display = "flex";
-        document.body.classList.add("gate-locked");
-    }
-}
-
-function submitNameGate() {
-    var input = document.getElementById("nameGateInput");
-    var name = input.value.trim();
-
-    if (!name) {
-        alert("කරුණාකර ඔබගේ නම ඇතුළත් කරන්න.");
-        return;
-    }
-
-    localStorage.setItem("visitorName", name);
-    document.getElementById("nameGateOverlay").style.display = "none";
-    document.body.classList.remove("gate-locked");
-
-    notifyTelegram(name);
-}
-
-function notifyTelegram(name) {
-    var message = "🔔 නව පිවිසීමක්\nනම: " + name +
-                   "\nවේලාව: " + new Date().toLocaleString() +
-                   "\nපිටුව: " + document.title;
-
-    var url = "https://api.telegram.org/bot" + TELEGRAM_BOT_TOKEN +
-              "/sendMessage?chat_id=" + TELEGRAM_CHAT_ID +
-              "&text=" + encodeURIComponent(message);
-
-    fetch(url).catch(function(err) {
-        console.log("Telegram notify failed:", err);
-    });
-}
-
-document.addEventListener("DOMContentLoaded", initNameGate);
 </script>
 
 </body>
